@@ -1,0 +1,88 @@
+.hero {
+  padding-top: 95px;
+  &__wrapper {
+    position: relative;
+  }
+  &__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 63px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    position: absolute;
+    top: 247px;
+    left: 16px;
+    @media screen and (min-width: 768px) {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 120px;
+      line-height: 146px;
+      text-align: center;
+      top: 584px;
+      left: 31px;
+    }
+    @media screen and (min-width: 1280px) {
+      top: 534px;
+      left: 178px;
+      font-size: 160px;
+      line-height: 195px;
+      &::after {
+        position: absolute;
+        content: '';
+        width: 58px;
+        height: 8px;
+        background-color: black;
+        top: 20px;
+        right: 20px;
+        display: block;
+      }
+    }
+  }
+  &__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #000000;
+    @media screen and (min-width: 768px) {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 1.2;
+
+      color: #000000;
+    }
+    @media screen and (min-width: 1280px) {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 1.2;
+
+      color: #000000;
+    }
+  }
+  &__picture {
+    margin-right: 8px;
+    margin-left: 14px;
+    @media screen and (min-width: 768px) {
+      margin-right: 20px;
+      margin-left: 40px;
+    }
+    @media screen and (min-width: 1280px) {
+      margin-right: 110px;
+      margin-left: 110px;
+    }
+  }
+}

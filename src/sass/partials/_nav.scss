@@ -1,0 +1,21 @@
+.nav {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+  &__list {
+    display: flex;
+    gap: 24px;
+    @media screen and (min-width: 1280px) {
+      gap: 48px;
+    }
+  }
+  &__item {
+    font-family: $fontFamilyPrimary;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  &__link {
+    color: $colorTextMain;
+  }
+}

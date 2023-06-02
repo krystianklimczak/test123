@@ -4,4 +4,12 @@
  */
 
 // Style dla pliku z przykładem HTML fragmentu
-@import './example';
+// @import './example';
+@use './partials/vars' as *;
+@import './partials/commons';
+@import './partials/header';
+@import './partials/nav';
+@import './partials/phone';
+@import './partials/hamburger';
+@import './partials/shopnow';
+@import './partials/hero';
