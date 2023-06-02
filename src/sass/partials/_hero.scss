@@ -14,8 +14,9 @@
     text-transform: uppercase;
     color: #000000;
     position: absolute;
-    top: 247px;
-    left: 16px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
     @media screen and (min-width: 768px) {
       font-family: 'Montserrat';
       font-style: normal;
@@ -23,12 +24,8 @@
       font-size: 120px;
       line-height: 146px;
       text-align: center;
-      top: 584px;
-      left: 31px;
     }
     @media screen and (min-width: 1280px) {
-      top: 534px;
-      left: 178px;
       font-size: 160px;
       line-height: 195px;
       &::after {
