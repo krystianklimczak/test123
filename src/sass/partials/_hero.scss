@@ -14,6 +14,25 @@
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 50%);
+    &::after {
+      content: '';
+      width: 58px;
+      height: 8px;
+      position: inherit;
+      display: none;
+      background-color: #000000;
+      top: 23.5px;
+      right: 22px;
+    }
+    @media screen and (min-width: 768px) {
+      font-size: 120px;
+    }
+    @media screen and (min-width: 1280px) {
+      font-size: 160px;
+      &::after {
+        display: block;
+      }
+    }
   }
   &__wrapper {
     display: flex;
@@ -29,6 +48,14 @@
     line-height: 1.21;
     color: #000000;
     margin-right: 14px;
+    @media screen and (min-width: 768px) {
+      font-size: 24px;
+      margin-right: 40px;
+    }
+    @media screen and (min-width: 1280px) {
+      font-size: 32px;
+      margin-right: 110px;
+    }
   }
 }
 
@@ -36,4 +63,36 @@
   margin-left: 8px;
   border: none;
   background-color: transparent;
+  @media screen and (min-width: 768px) {
+    margin-left: 20px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-left: 110px;
+  }
+  &__svg {
+    @media screen and (min-width: 768px) {
+      width: 145px;
+      height: 150px;
+    }
+  }
+  &__use-m {
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+  &__use-t {
+    display: none;
+    @media screen and (min-width: 768px) {
+      display: block;
+    }
+    @media screen and (min-width: 1280px) {
+      display: none;
+    }
+  }
+  &__use-d {
+    display: none;
+    @media screen and (min-width: 1280px) {
+      display: block;
+    }
+  }
 }
