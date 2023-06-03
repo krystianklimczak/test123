@@ -1,17 +1,10 @@
 .about {
-    &__content {
-        @media screen and (min-width: 768px) {
-            display: flex;
-            align-items: center;
-            gap: 54px;
-        }
-    }
   &__description {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     color: #000000;
     margin-bottom: 16px;
   }
