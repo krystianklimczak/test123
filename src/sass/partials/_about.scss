@@ -7,5 +7,21 @@
     line-height: 1.25;
     color: #000000;
     margin-bottom: 16px;
+    @media screen and (min-width: 768px) {
+      max-width: 322px;
+      font-size: 20px;
+    }
+    @media screen and (min-width: 1280px) {
+      max-width: 510px;
+      font-size: 22px;
+    }
+  }
+  &__wrapper {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 54px;
+    }
   }
 }
