@@ -1,0 +1,2 @@
+(()=>{const o={openModalBtns:document.querySelectorAll("[data-modal-contact-open]"),closeModalBtn:document.querySelector("[data-modal-contact-close]"),modal:document.querySelector("[data-modal-contact]")};for(let e=0;e<o.openModalBtns.length;e++)o.openModalBtns[e].addEventListener("click",t);function t(){o.modal.classList.toggle("is-hidden")}o.closeModalBtn.addEventListener("click",t)})();
+//# sourceMappingURL=index.cd9d3bdf.js.map
