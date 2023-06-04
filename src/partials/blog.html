@@ -1,12 +1,142 @@
 <section class="section blog" id="blog">
-    <div class="container">
-        <h2 class="section__title">blog</h2>
-        <div class="blog__wrapper">
-        <div class="blog__carousel">
+  <div class="container">
+    <h2 class="section__title">blog</h2>
+    <div class="blog__wrapper">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <picture>
+              <source
+                srcset="./images/blog-slide1-d@1x.jpg 1x, ./images/blog-slide1-d@2x.jpg 2x"
+                type="image/jpeg"
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="./images/blog-slide1-t@1x.jpg 1x, ./images/blog-slide1-t@2x.jpg 2x"
+                type="image/jpeg"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="./images/blog-slide1-m@1x.jpg 1x.jpg, ./images/blog-slide1-m@2x.jpg 2x"
+                type="image/jpeg"
+                media="(max-width: 767.59px)"
+              />
+              <img src="./images/blog-slide1-d@1x.jpg" alt="slider kwiata" />
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source
+                srcset="./images/blog-slide2-d@1x.jpg 1x, ./images/blog-slide2-d@2x.jpg 2x"
+                type="image/jpeg"
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="./images/blog-slide2-t@1x.jpg 1x, ./images/blog-slide2-t@2x.jpg 2x"
+                type="image/jpeg"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="./images/blog-slide2-m@1x.jpg 1x.jpg, ./images/blog-slide2-m@2x.jpg 2x"
+                type="image/jpeg"
+                media="(max-width: 767.59px)"
+              />
+              <img src="./images/blog-slide2-d@1x.jpg" alt="slider kwiata" />
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source
+                srcset="./images/blog-slide3-d@1x.jpg 1x, ./images/blog-slide3-d@2x.jpg 2x"
+                type="image/jpeg"
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="./images/blog-slide3-t@1x.jpg 1x, ./images/blog-slide3-t@2x.jpg 2x"
+                type="image/jpeg"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="./images/blog-slide3-m@1x.jpg 1x.jpg, ./images/blog-slide3-m@2x.jpg 2x"
+                type="image/jpeg"
+                media="(max-width: 767.59px)"
+              />
+              <img src="./images/blog-slide3-d@1x.jpg" alt="slider kwiata" />
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source
+                srcset="./images/blog-slide4-d@1x.jpg 1x, ./images/blog-slide4-d@2x.jpg 2x"
+                type="image/jpeg"
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="./images/blog-slide4-t@1x.jpg 1x, ./images/blog-slide4-t@2x.jpg 2x"
+                type="image/jpeg"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="./images/blog-slide4-m@1x.jpg 1x.jpg, ./images/blog-slide4-m@2x.jpg 2x"
+                type="image/jpeg"
+                media="(max-width: 767.59px)"
+              />
+              <img src="./images/blog-slide4-d@1x.jpg" alt="slider kwiata" />
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source
+                srcset="./images/blog-slide5-d@1x.jpg 1x, ./images/blog-slide5-d@2x.jpg 2x"
+                type="image/jpeg"
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="./images/blog-slide5-t@1x.jpg 1x, ./images/blog-slide5-t@2x.jpg 2x"
+                type="image/jpeg"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="./images/blog-slide5-m@1x.jpg 1x.jpg, ./images/blog-slide5-m@2x.jpg 2x"
+                type="image/jpeg"
+                media="(max-width: 767.59px)"
+              />
+              <img src="./images/blog-slide5-d@1x.jpg" alt="slider kwiata" />
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source
+                srcset="./images/blog-slide6-d@1x.jpg 1x, ./images/blog-slide6-d@2x.jpg 2x"
+                type="image/jpeg"
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="./images/blog-slide6-t@1x.jpg 1x, ./images/blog-slide6-t@2x.jpg 2x"
+                type="image/jpeg"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="./images/blog-slide6-m@1x.jpg 1x.jpg, ./images/blog-slide6-m@2x.jpg 2x"
+                type="image/jpeg"
+                media="(max-width: 767.59px)"
+              />
+              <img src="./images/blog-slide6-d@1x.jpg" alt="slider kwiata" />
+            </picture>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
 
-        </div>
-        <p class="blog__description">Follow to our newsletter</p>
-        <button class="button button--subscribe">Subscribe</button>
-        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <p class="blog__description">Follow to our newsletter</p>
+      <button class="button button--subscribe">Subscribe</button>
     </div>
+  </div>
 </section>
