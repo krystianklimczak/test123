@@ -1,0 +1,45 @@
+<div class="modal-sub is-hidden" data-modal-sub>
+  <div class="modal-sub__box">
+    <button class="modal-sub__close" data-modal-sub-close>
+      <svg class="modal-sub__close--size" width="18" height="18">
+        <use href="./images/icons.svg#icon-close-modal"></use>
+      </svg>
+    </button>
+    <picture>
+      <source
+        srcset="./images/modal-m@1x.jpg"
+        media="(max-width: 767.69px)"
+        width="272"
+        height="121"
+      />
+      <source
+        srcset="./images/modal-t@1x.jpg"
+        media="(max-width: 1279.69px)"
+        width="588"
+        height="271"
+      />
+      <img src="./images/modal-d@1x.jpg" alt="bouquet of flowers" width="428" height="528" />
+    </picture>
+    <div class="modal-sub__inner-box">
+      <h4 class="modal-sub__title">Follow to our newsletter</h4>
+      <p class="modal-sub__description">
+        Be the first to get exclusive offers and the latest news on our product directly in your
+        box.
+      </p>
+      <form class="modal-sub__form">
+        <label class="label">
+          Email
+          <input
+            class="label__input"
+            type="email"
+            name="sub-email"
+            placeholder="Your emial"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            required
+          />
+        </label>
+        <button class="button modal-sub__button" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</div>

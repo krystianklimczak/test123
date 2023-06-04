@@ -1,0 +1,39 @@
+<div class="modal-contact is-hidden" data-modal-contact>
+  <div class="modal-contact__box">
+    <button class="modal-contact__close" data-modal-contact-close>
+      <svg class="modal-contact__close--size" width="18" height="18">
+        <use href="./images/icons.svg#icon-close-modal"></use>
+      </svg>
+    </button>
+    <h4 class="modal-contact__title">Contact us</h4>
+    <p class="modal-contact__description">
+      If you have any additional questions or you want to clarify something before you make an order
+      please fill in your contact details. We will call you back.
+    </p>
+    <form class="modal-contact__form">
+      <label class="label">
+        Name
+        <input
+          class="label__input"
+          type="text"
+          name="name"
+          placeholder="Your name"
+          pattern="\w{3,16}"
+          required
+        />
+      </label>
+      <label class="label modal-contact__label">
+        Email
+        <input
+          class="label__input"
+          type="email"
+          name="contact-email"
+          placeholder="Your email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          required
+        />
+      </label>
+      <button class="button modal-contact__button" type="submit">Send</button>
+    </form>
+  </div>
+</div>
