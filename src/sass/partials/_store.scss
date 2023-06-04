@@ -1,4 +1,5 @@
 .store {
+  overflow: hidden;
   &__gallery {
     display: flex;
     flex-wrap: wrap;
