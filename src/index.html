@@ -18,6 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <!-- AOS STYLE -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
@@ -26,8 +28,13 @@
     <include src="./partials/about.html"></include>
     <include src="./partials/store.html"></include>
     <include src="./partials/delivery.html"></include>
+    <include src="./partials/blog.html"></include>
 
     <!-- Skrypt jest na samym dole kodu. On juz ma w sobie podłączony SAAS plik. -->
     <script src="./index.js" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
