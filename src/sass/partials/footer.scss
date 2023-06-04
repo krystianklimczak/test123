@@ -59,9 +59,19 @@
   }
   &__link {
     color: white;
+    &:is(:hover, :focus) {
+      color: #e86f54;
+    }
   }
   &__social {
     background-color: transparent;
     border: none;
+    display: flex;
+    padding: 5px;
+    &:is(:hover, :focus) {
+      background-color: #e86f54;
+      border-radius: 50%;
+      
+    }
   }
 }

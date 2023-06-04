@@ -33,12 +33,18 @@
     line-height: 1.2;
 
     color: #000000;
+    &:is(:hover, :focus) {
+      color: #e86f54;
+    }
   }
 }
 
 .phone {
   background-color: transparent;
   border: none;
+  &:is(:hover, :focus) {
+    fill: #e86f54;
+  }
 }
 
 .hamburger {

@@ -63,6 +63,9 @@
   margin-left: 8px;
   border: none;
   background-color: transparent;
+  &:is(:hover, :focus) {
+    fill: #e86f54;
+  }
   @media screen and (min-width: 768px) {
     margin-left: 20px;
   }
