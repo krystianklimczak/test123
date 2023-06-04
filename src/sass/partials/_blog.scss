@@ -1,5 +1,5 @@
 .blog {
-    overflow: hidden;
+  overflow: hidden;
   &__wrapper {
     display: flex;
     flex-direction: column;
@@ -18,10 +18,10 @@
     @media screen and (min-width: 768px) {
       font-size: 32px;
       margin-top: 18px;
-    margin-bottom: 32px;
+      margin-bottom: 32px;
     }
     @media screen and (min-width: 1280px) {
-        margin-top: 24px;
+      margin-top: 24px;
     }
   }
 }
@@ -29,16 +29,24 @@
 // SWIPER STYLE
 .swiper {
   width: 100%;
-  min-height: 181px;
-  @media screen and (min-width: 768px) {
-    min-height: 398px;
-  }
-  @media screen and (min-width: 1280px) {
-    min-height: 450px;
-  }
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 768px;
+  //   min-height: 181px;
+  //   @media screen and (min-width: 768px) {
+  //     min-height: 398px;
+  //   }
+  //   @media screen and (min-width: 1280px) {
+  //     min-height: 450px;
+  //   }
   .swiper-slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
   }
 }
