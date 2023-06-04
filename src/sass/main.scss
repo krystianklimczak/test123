@@ -6,10 +6,12 @@
 // Style dla pliku z przykładem HTML fragmentu
 // @import './container';
 @import './partials/common';
+@import './partials/section';
 @import './partials/container';
+
 @import './partials/header';
 @import './partials/hero';
-@import './partials/section';
+
 @import './partials/about';
 @import './partials/store';
 @import './partials/button';
